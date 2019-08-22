@@ -15,8 +15,6 @@ possible, for example to use SQLite database backend::
 
 The other installation [options] include:
 
-  ``access``
-      for access control capabilities;
   ``docs``
       for documentation building dependencies;
   ``mysql``
@@ -28,4 +26,6 @@ The other installation [options] include:
   ``admin``
       for Flask administration interfaces;
   ``tests``
-      for test dependencies.
+      for test dependencies;
+  ``pidstore``
+      this option is meant only for keeping package dependencies.
